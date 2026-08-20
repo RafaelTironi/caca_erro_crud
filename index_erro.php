@@ -79,6 +79,8 @@ $resultado = $conn->query($sql);
 
     <form method="POST">
 
+        <input type="hidden" name="id" value="<?= $usuario['id'] ?>">
+
         <label>Nome:</label>
         <input type="text" name="nome" required>
         <br><br>
